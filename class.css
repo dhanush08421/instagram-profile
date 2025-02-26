@@ -1,0 +1,147 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ main {
+    height: 80vh;
+    /* background-color: #f0efef; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+ }
+
+ .phoneContainer {
+    height: 585px;
+    width: 380px;
+    /* background-color: red;  */
+    background-image: url("./home-phones\ \(1\).png");
+    background-position: center 0px;
+    background-size: cover;
+    position: relative;
+ }
+
+ .phoneContainer img {
+    position: absolute;
+    right: 28px;
+    top: 23px;
+    height: 86%;
+ }
+
+ .loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 580px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+
+ }
+
+ .firstContainer {
+    border: 1px solid #DBDBDB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+
+ }
+
+ .firstContainer .logodiv {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+ }
+
+ .secondContainer {
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-grow: 1; */
+    height: 63px;
+ }
+
+ .secondContainer a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #0095F6;
+ }
+
+ .login {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+ }
+
+ .login input {
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #DBDBDB;
+ }
+
+ .login button {
+    height: 30px;
+    background-color: #4CB5F9;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+ }
+
+ .orline {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .orline hr {
+
+    width: 30%;
+    border: 0.6px solid #DBDBDB;
+
+
+    /* flex-grow: 1; */
+
+ }
+
+ .loginWithFb a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0095F6;
+ }
+
+ .forgotpwd a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .thirdContainer {
+    display: flex;
+    height: 85px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .thirdContainer img {
+    height: 40px;
+ }
+ footer{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+ }
